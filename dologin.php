@@ -14,25 +14,27 @@ if($link === false){
 }
 $sql = "SELECT * FROM login";
 $result = $link->query($sql);
-$ct=0;
+$ct=1;
 if ($result->num_rows > 0) {
   // output data of each row
-  while($row = $result->fetch_assoc()) {
-   if($row['username']==$user&&$row['Password']==$password)  
+  while($row = $result->fetch_assoc())
    {
-    echo"Logged In!";
-    $_SESSION['username']=$user;
-    $_SESSION['Password']=$password;
-    $ct=1;
-    header("Location:form2.html");
-    exit();
-   }
-  }
-  if($ct==0)
+    if($row['UserName']==$user&&$row['Password']==$password)  
+    {
+        $ct=0;
+        echo"Logged In!";
+        $_SESSION['username']=$user;
+        $_SESSION['Password']=$password;
+        header("Location:form2.html");
+        exit();
+    }
+  } 
+  if($ct==1)
   {
-      header("Location:Form1.html");
+    header("Location:form1.html");
   }
-} else {
+} 
+else {
   echo "0 results";
 }
 $link->close();
