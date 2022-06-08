@@ -10,7 +10,6 @@
 <body>
     <div id="nav-container">
         <div class="bg"></div>
-        <span id="Name">Book</span>
         <div class="button" tabindex="0">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
