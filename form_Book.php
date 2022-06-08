@@ -1,5 +1,6 @@
 <?php 
-include_once("DarkMode.php");
+include_once"Header.php";
+
 ?>
 
 <!DOCTYPE html>
@@ -9,7 +10,7 @@ include_once("DarkMode.php");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book</title>
-    
+    <link rel="stylesheet" href="form_Book.css">
 </head>
 <body>
     <div>
@@ -22,7 +23,7 @@ include_once("DarkMode.php");
 
     <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
+      <option value="australia">room with 2 bed</option>
       <option value="canada">Canada</option>
       <option value="usa">USA</option>
     </select>
