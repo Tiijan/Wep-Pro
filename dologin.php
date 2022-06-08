@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
         echo"Logged In!";
         $_SESSION['username']=$user;
         $_SESSION['Password']=$password;
-        header("Location:form2.html");
+        header("Location:form2.php");
         exit();
     }
   } 

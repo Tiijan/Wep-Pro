@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
   }
   
   strong {
@@ -44,8 +45,10 @@
     left: 0;
     width: 100%;
     height: calc(100% - 70px);
+    visibility: hidden;
+    opacity: 0;
     transition: .3s;
-    background: rgb(255, 255, 255);
+    background: #000;
   }
   #nav-container:focus-within .bg {
     visibility: visible;
@@ -160,4 +163,8 @@
   ul {
     padding: 0;
     list-style: none;
+  }
+
+  #Name{
+     float: right;
   }
