@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="form2.css">
+    <link rel="stylesheet" href="Header.css">
     <title>4 season hotel</title>
 </head>
 <body>
     <div id="nav-container">
         <div class="bg"></div>
+        <span id="Name">Book</span>
         <div class="button" tabindex="0">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -25,6 +26,8 @@
           </ul>
         </div>
       </div>
+
+      
   <div style="padding-left:16px">
   </div>
   <script src="Form2.js"></script>
