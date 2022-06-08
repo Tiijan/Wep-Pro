@@ -21,7 +21,7 @@
             <li><a href="#0">Services</a></li>
             <li><a href="#0">Blog</a></li>
             <li><a href="#0">About</a></li>
-            <li><a href="#0">Contact</a></li>
+            <li><a href="formContact.php">Contact</a></li>
           </ul>
         </div>
       </div>
