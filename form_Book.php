@@ -1,5 +1,5 @@
 <?php 
-
+include_once("DarkMode.php");
 ?>
 
 <!DOCTYPE html>
