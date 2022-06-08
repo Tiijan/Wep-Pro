@@ -25,17 +25,8 @@
           </ul>
         </div>
       </div>
-
-      <div id="kk">
-    <input type="checkbox" class="checkbox" id="checkbox">
-  <label for="checkbox" class="label">
-    <div class='ball'>
-  </label>
-  <script src="DarkMode.js"></script>
-</div>
       
   <div style="padding-left:16px">
   </div>
-  <script src="Form2.js"></script>
 </body>
 </html>
