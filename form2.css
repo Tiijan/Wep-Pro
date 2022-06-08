@@ -4,7 +4,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
   }
   
   strong {
@@ -45,10 +44,8 @@
     left: 0;
     width: 100%;
     height: calc(100% - 70px);
-    visibility: hidden;
-    opacity: 0;
     transition: .3s;
-    background: #000;
+    background: rgb(255, 255, 255);
   }
   #nav-container:focus-within .bg {
     visibility: visible;
@@ -66,7 +63,6 @@
     z-index: 1;
     -webkit-appearance: none;
     border: 0;
-    background: transparent;
     border-radius: 0;
     height: 70px;
     width: 30px;
@@ -132,7 +128,7 @@
   }
   
   #nav-content li a:hover {
-    color: #faf7f7;
+    color: #ca1313;
   }
   
   #nav-content li:not(.small) + .small {
