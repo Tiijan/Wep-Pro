@@ -1,6 +1,5 @@
 <?php
 include_once"Header.php";
-include_once"DarkMode.php";
 ?>
 
 <!DOCTYPE html>
