@@ -13,19 +13,26 @@ include_once"Header.php";
     <link rel="stylesheet" href="form_Book.css">
 </head>
 <body>
-    <div>
-  <form action="/action_page.php">
+    <div id="form">
+  <form action="Book_ctrl.php">
+    
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
+    <label for="indate">Check in Date</label>
+    <input type="date" id="indate" name="indate" placeholder="in Date..">
+
+    <label for="outdate">Check in Date</label>
+    <input type="date" id="outdate" name="outdate" placeholder="outdate..">
+
+    <label for="Room">Room</label>
+    <select id="Room" name="Room">
       <option value="australia">room with 2 bed</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+      <option value="canada">room with 1 bed</option>
+      <option value="usa">room with 3 bed</option>
     </select>
   
     <input type="submit" value="Submit">

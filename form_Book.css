@@ -1,18 +1,26 @@
 input[type=text], select {
     width: 100%;
-    padding: 12px 20px;
+    padding: 12px 6px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
-  input[type=submit] {
+  input[type=date], select {
     width: 100%;
-    background-color: #4CAF50;
+    padding: 12px 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(68, 35, 35);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 30%;
+    background-color: #0e4be6;
     color: white;
-    padding: 14px 20px;
+    padding: 14px 2px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
@@ -20,12 +28,14 @@ input[type=text], select {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #1fd2e6;
   }
   
-  div {
+  #form {
+      float: left;
+      font-style: normal;
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #134b5fd0;
     margin-left: 2%;
     margin-top: 10%;
     padding: 20px;
