@@ -1,6 +1,9 @@
+body{
+  background-color: rgb(0, 0, 0);
+}
 input[type=text], select {
     width: 100%;
-    padding: 12px 6px;
+    padding: 12px 3px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -9,7 +12,7 @@ input[type=text], select {
   }
   input[type=date], select {
     width: 100%;
-    padding: 12px 6px;
+    padding: 12px 3px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid rgb(68, 35, 35);
@@ -20,7 +23,7 @@ input[type=text], select {
     width: 30%;
     background-color: #0e4be6;
     color: white;
-    padding: 14px 2px;
+    padding: 14px 3px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
@@ -33,10 +36,17 @@ input[type=text], select {
   
   #form {
       float: left;
-      font-style: normal;
     border-radius: 5px;
-    background-color: #134b5fd0;
-    margin-left: 2%;
-    margin-top: 10%;
+    background-color: #fafafad0;
+    margin-left: 10%;
+    margin-top: 3%;
     padding: 20px;
   }
+.rentcar
+{
+  color: white;
+  float: right;
+  margin-right: 45%;
+  text-transform: uppercase;
+  margin-top: 1%;
+}
