@@ -1,12 +1,105 @@
+body
+{
+    background-color: black;
+}
 #middel
 {    
+    color: white;
+    float: right;
+    margin-right: 47%;
     text-align: center;
-    
+    margin-top: 5%;
 }
 #center
 {
-    margin-left: 15%;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 2%;
-    border: 1px solid black;
+    border: 1px solid white;
       
 }
+#klam
+{
+    color: white;
+}
+#left{
+    float: right;
+    margin-right: 65%;
+}
+#right
+{
+    float: right;
+    margin-right: 30%;
+
+}
+
+  
+  
+
+  #cahngec
+  {
+    width: 100%;
+      background-color: white;
+      position: relative;
+    font-family: Arial;
+    float: right;
+    margin-top: 7%;
+    
+    
+  }
+  #pad{
+      margin-left: 25%;
+      margin-top: 2%;
+      padding: 3ch;
+      cursor: pointer;
+  }
+  #first{
+      margin-left: 2%;
+      padding: 1%;
+      width: 20%;
+  }
+  #sec
+  {
+    margin-left: 2%;
+    padding: 1%;
+    width: 20%;
+  }
+  #other{
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 29%;
+    padding: 1%;
+  }
+  #ol
+  {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 20%;
+    padding: 1%;
+  }
+  #Feedback{
+      
+    margin-left: 25%;
+    margin-top: 2%;
+    width: 52%;
+    padding: 5%;
+  }
+  #bton
+  {
+    border: none;
+    color: white;
+    margin-left: 67%;
+    width: 10%;
+    margin-top: 2%;
+    padding: 1%;
+    cursor: pointer;
+    background-color: black;
+    margin-bottom: 2%;
+  }
+  #bton:hover
+  {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+  }
