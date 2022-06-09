@@ -12,9 +12,9 @@
 </head>
 <h1 class="delete"> delete order </h1>
    <body>
-     
+     <form action="Delete.php">
 
-      <label id="label"for="ID">ID</label>
+    <label id="label"for="ID">ID</label>
     <input id="id" type="text" id="ID" name="ID" placeholder="Your id pls..">
 
   </form>
