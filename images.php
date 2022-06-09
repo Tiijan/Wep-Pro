@@ -11,11 +11,6 @@ include_once "Header.php";
     
     <title>images and videos</title>
 </head>
-<h1 >
-   
-
-        
-
     <body>
 
 <h2 style="text-align:center">
