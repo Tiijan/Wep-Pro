@@ -1,6 +1,4 @@
-<?php 
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,10 +10,11 @@
 </head>
 <h1 class="delete"> delete order </h1>
    <body>
-     <form action="Delete.php">
+     <form action="Delete.php" method="POSt">
 
-    <label id="label"for="ID">ID</label>
+    <label id="label" for="ID">ID</label>
     <input id="id" type="text" id="ID" name="ID" placeholder="Your id pls..">
+    <button>submit</button>
 
   </form>
 </div>
