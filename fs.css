@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+#right{
+    color: white;
+    margin-right: 15%;
+    margin-top: 5%;
+    float: right;
+}
+#ima1 img{
+    width: 3ch;
+    margin-left: 4%;
+    margin-top: 31%;
+}
+#ima2 img{
+    width: 3ch;
+    
+    margin-top: 31%;
+}
+#rightt{
+    color: white;
+    margin-right: 15%;
+    margin-top: 5%;
+    float: right;
+}
+#righttt{
+    color: white;
+    margin-right: 15%;
+    margin-top: 5%;
+    float: right;
+}
+#left{
+    color: white;
+    margin-right: 10%;
+    margin-top: 5%;
+    float: right; 
+}
+#img img{
+    float: right;
+    
+}
+#hrs{
+    width: 100%;
+    color: white;
+    position: relative;
+    
+    float: right;
+    margin-top: 2%;
+}
+#pp{
+    width: 100%;
+    color: white;
+    position: relative;
+    float: right;
+    
+    margin-top: 2%;
+}
+#mar{
+    margin-top: 5%;
+}
