@@ -64,6 +64,3 @@ include_once"Header.php";
    
 </body>
 </html>
-<?php
-include_once"footer.php";
-?>

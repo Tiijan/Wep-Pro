@@ -19,21 +19,25 @@
                     <li class="nav-item"><a class="nav-link active" href="#">First Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Second Item</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Third Item</a></li>
-                </ul><button class="btn btn-primary" type="button">Button</button>
+                </ul>
             </div>
         </div>
     </nav>
     <section style="background: url(&quot;room.jpg&quot;) center / cover no-repeat;width: 1518px;">
-        <h1 style="color: var(--bs-body-color);text-align: center;border-style: none;font-size: 56.9px;font-weight: bold;font-family: Arizonia, serif;">Reserve your room&nbsp;</h1>
-        <div><input id="date" type="date" style="text-align: center;background: rgba(181,181,181,0.44);color: rgb(255,255,255);border-style: ridge;width: 152.2px;height: 29px;float: right;font-size: 14px;">
-            <p style="color: rgb(255,255,255);font-size: 18px;">Check-in date</p>
-        </div>
-        <div><input type="number" id="room" style="background: rgba(147,139,139,0.61);border-style: ridge;font-size: 15px;width: 152.2px;height: 29px;/*float: right;*/">
-            <p id="pp" style="font-size: 18px;color: rgb(255,255,255);">No. of rooms</p>
-            <div>
-                <p id="llll">Paragraph</p>
+        <h1 style="color: var(--bs-body-color);text-align: center;border-style: none;font-size: 56.9px;font-weight: bold;font-family: Arizonia, serif;">Reserve your room&nbsp;</h1>    
+        <form action="formrental.php" method="post">
+            <div><input name="dd" required id="date" type="date" style="text-align: center;background: rgba(181,181,181,0.44);color: rgb(255,255,255);border-style: ridge;width: 152.2px;height: 29px;float: right;font-size: 14px;">
+                <p style="color: rgb(255,255,255);font-size: 18px;">Check-in date</p>
             </div>
-        </div><div class="simple-slider">
+            <div><input name="number" required type="number" id="room" style="background: rgba(147,139,139,0.61);border-style: ridge;font-size: 15px;width: 152.2px;height: 29px;/*float: right;*/">
+                <p id="pp" style="font-size: 18px;color: rgb(255,255,255);">No. of rooms</p>
+                <div>
+                    <p id="llll">Paragraph</p>
+                </div>
+                <button class="btnb" type="supmit">Button</button>
+            </div>
+        </form>
+       <div class="simple-slider">
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide" style="background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png') center center / cover no-repeat;"></div>
