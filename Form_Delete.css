@@ -1,0 +1,21 @@
+#id
+{
+    color: rgb(154, 31, 31);
+}
+body
+{
+background-image:url("hotel.jpg");
+    
+    background-color: black;
+}
+
+.delete
+{
+    color: white;
+}
+#label
+{
+
+
+    color: white;
+}
