@@ -18,8 +18,9 @@
         <div id="nav-content" tabindex="0">
           <ul>
             <li><a href="form2.php">Home</a></li>
-            <li><a href="form_Book.php">Services</a></li>
-            <li><a href="#0">Pictures and Videos</a></li>
+            <li><a href="formRoom.html">Room Rental</a></li>
+            <li><a href="form_Book_car.php">Car Rental</a></li>
+            <li><a href="images.php">Pictures and Videos</a></li>
             <li><a href="formContact.php">Contact Us</a></li>
           </ul>
         </div>

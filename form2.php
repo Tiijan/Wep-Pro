@@ -16,11 +16,13 @@
             <picture><img src="download-removebg-preview%20(1).png"></picture><a class="navbar-brand d-flex align-items-center" href="#"><span>HOTEL</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-3">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Car Rental</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="formRoom.html">Room Rental</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Pictures and Videos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                </ul><button class="btn btn-primary" type="button">Sign Out</button>
+                <li class="nav-item"><a class="nav-link active" href="formRoom.html">Room Rental</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="form_Book_car.php">Car Rental</a></li>
+                    <li class="nav-item"><a class="nav-link" href="images.php">Pictures and Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formContact.php">Contact Us</a></li>
+                    <form action="Form1.html">
+                    </ul><button class="btn btn-primary" type="submit">Sign Out</button>
+                    </form>
             </div>
         </div>
     </nav>
