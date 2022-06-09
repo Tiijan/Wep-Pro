@@ -17,11 +17,10 @@
         </div>
         <div id="nav-content" tabindex="0">
           <ul>
-            <li><a href="#0">Home</a></li>
+            <li><a href="form2.php">Home</a></li>
             <li><a href="form_Book.php">Services</a></li>
-            <li><a href="#0">Blog</a></li>
-            <li><a href="#0">About</a></li>
-            <li><a href="formContact.php">Contact</a></li>
+            <li><a href="#0">Pictures and Videos</a></li>
+            <li><a href="formContact.php">Contact Us</a></li>
           </ul>
         </div>
       </div>
